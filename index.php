@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>collabsphere</title>
+
+  <style>
+    body {
+      background-image: url("p1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+        .container {
+      height: 100vh;
+      background: rgba(174, 18, 18, 0.6); /* dark overlay */
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      color: rgb(213, 211, 220);
+      text-align: center;
+    }
+
+    h1 {
+      color: rgb(19, 102, 169);
+      font-style: italic;
+    }
+
+    h2 {
+      color: rgb(11, 110, 191);
+      font-style: italic;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 100px;
+    }
+
+    button {
+      padding: 50px 75px;
+      font-size: 23px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgba(37, 122, 188, 0.734);
+      color: rgb(234, 11, 11);
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: rgb(17, 46, 192);
+      transform: scale(1.1);
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1816169b;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #282121;
+}
+  </style>
+
+</head>
+<body>
+ <ul>
+  <li><a href="home.php">Home</a></li>
+  <li><a href="help.php">Help</a></li>
+  <li><a href="contact.php">Contact</a></li>
+  <li><a href="signup.php">Signup</a></li>
+  <li><a href="6.php">Login</a></li>
+</ul>
+  <h1>COLLABSPHERE</h1>
+  <h2>A Space Designed To Discover And Celebrate Talent</h2>
+
+  <div class="button-container">
+    <button onclick="location.href=' Community.php'"> COMMUNITY</button>
+    <button onclick="location.href='new_c.php'">START_NEW</button>
+    <button onclick="location.href='project.php'">PROJECT</button>
+    <button onclick="location.href='job.php'">JOB</button>
+  </div>
+  <a href="home.php"></a> |
+ 
+</body>
+</html>
